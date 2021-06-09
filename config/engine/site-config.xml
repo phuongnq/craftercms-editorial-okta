@@ -21,4 +21,52 @@
 
 <site>
     <version>2</version>
+    <security>
+    <saml2>
+      <enable>true</enable>
+      <reverseProxy>true</reverseProxy>
+      <context>
+        <forwardedProtoHeaderName>X-Forwarded-Proto</forwardedProtoHeaderName>
+        <forwardedHostHeaderName>X-Forwarded-Host</forwardedHostHeaderName>
+        <forwardedPortHeaderName>X-Forwarded-Port</forwardedPortHeaderName>
+        <scheme>http</scheme>
+        <serverName>myproxy</serverName>
+        <serverPort>9080</serverPort>
+        <contextPath>/</contextPath>
+      </context>
+      <profile>
+        <passive>true</passive>
+        <forceAuthN>true</forceAuthN>
+        <includeScoping>false</includeScoping>
+      </profile>
+      <attributes>
+        <mappings>
+          <mapping>
+            <name>DisplayName</name>
+            <attribute>fullName</attribute>
+          </mapping>
+        </mappings>
+      </attributes>
+      <role>
+         <mappings>
+            <mapping>
+               <name>editor</name>
+               <role>ROLE_EDITOR</role>
+            </mapping>
+         </mappings>
+      </role>
+      <keystore>
+         <defaultCredential>okta_sso</defaultCredential>
+         <password>okta-secret-password</password>
+         <credentials>
+            <credential>
+               <name>okta_sso</name>
+               <password>okta-secret-password</password>
+            </credential>
+         </credentials>
+      </keystore>
+      <identityProviderName>My IDP</identityProviderName>
+      <serviceProviderName>Crafter Engine</serviceProviderName>
+   </saml2>
+    </security>
 </site>    
