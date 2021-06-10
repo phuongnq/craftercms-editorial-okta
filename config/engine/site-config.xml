@@ -25,7 +25,7 @@
         <urlRestrictions>
         <restriction>
             <url>/*</url>
-            <expression>hasAnyRole({'author'\, 'admin'})</expression>
+            <expression>hasAnyRole({'editor'\, 'admin'})</expression>
         </restriction>
         </urlRestrictions>
         <saml2>
@@ -71,7 +71,7 @@
                 </credential>
              </credentials>
           </keystore>
-          <identityProviderName>My IDP</identityProviderName>
+          <identityProviderName>Okta</identityProviderName>
           <serviceProviderName>Crafter Engine</serviceProviderName>
        </saml2>
     </security>
