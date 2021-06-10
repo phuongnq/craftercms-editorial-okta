@@ -62,11 +62,11 @@
              </mappings>
           </role>
           <keystore>
-             <defaultCredential>okta_sso</defaultCredential>
+             <defaultCredential>okta_sso_1</defaultCredential>
              <password>okta-secret-password</password>
              <credentials>
                 <credential>
-                   <name>okta_sso</name>
+                   <name>okta_sso_1</name>
                    <password>okta-secret-password</password>
                 </credential>
              </credentials>
