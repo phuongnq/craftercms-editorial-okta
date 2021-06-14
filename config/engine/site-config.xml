@@ -51,18 +51,13 @@
           <attributes>
             <mappings>
               <mapping>
-                <name>DisplayName</name>
-                <attribute>fullName</attribute>
+                <name>Email</name>
+                <attribute>email</attribute>
               </mapping>
             </mappings>
           </attributes>
           <role>
-             <mappings>
-                <mapping>
-                   <name>editor</name>
-                   <role>ROLE_EDITOR</role>
-                </mapping>
-             </mappings>
+              <key>role</key>
           </role>
           <keystore>
              <defaultCredential>okta_sso_1</defaultCredential>
