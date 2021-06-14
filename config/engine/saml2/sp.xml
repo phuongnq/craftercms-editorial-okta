@@ -4,7 +4,8 @@
     <md:KeyDescriptor use="signing">
       <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
         <ds:X509Data>
-          <ds:X509Certificate>MIIDrjCCApagAwIBAgIGAXnvlFglMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJVUzETMBEG
+          <ds:X509Certificate>-----BEGIN CERTIFICATE-----
+MIIDrjCCApagAwIBAgIGAXnvlFglMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJVUzETMBEG
 A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
 MBIGA1UECwwLU1NPUHJvdmlkZXIxGDAWBgNVBAMMD2NyYWZ0ZXJzb2Z0d2FyZTEcMBoGCSqGSIb3
 DQEJARYNaW5mb0Bva3RhLmNvbTAeFw0yMTA2MDkwNzAxMjdaFw0zMTA2MDkwNzAyMjdaMIGXMQsw
@@ -20,14 +21,16 @@ AAOCAQEAUt/mV15HvhpsBcwfNuQTd+8koLAiOs1eXclJEj5PjhBnCoQ+nHRVJq/Hd89NO6WcFEfP
 CKjDghhhdHunGNhdXI9maDfI/RbafRAy0DWh929jYWgaj/HSg95jj1JV7TtiBIQwqFJ51MWmkwF3
 yZllicD4lmdCCbXpnnL+oVeuP/fN8vdg43uVC7H8OlcxqIlbBx6P6MFjv3Dn+Zt2y5dhyFfCsSzu
 palHwkjdk7qPLcOVNfsVeMUH6CejvhqH+lBNXNEIeZKSMKjXnvwBuTmYUBwUq2ctX/hCEdPBoPfL
-TmfJtuVOGS8hC88IzwgD3vJGM0W12iwmztl4YCm22gOdig==</ds:X509Certificate>
+TmfJtuVOGS8hC88IzwgD3vJGM0W12iwmztl4YCm22gOdig==
+-----END CERTIFICATE-----</ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
     <md:KeyDescriptor use="encryption">
       <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
         <ds:X509Data>
-          <ds:X509Certificate>MIIDrjCCApagAwIBAgIGAXnvlFglMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJVUzETMBEG
+          <ds:X509Certificate>-----BEGIN CERTIFICATE-----
+MIIDrjCCApagAwIBAgIGAXnvlFglMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJVUzETMBEG
 A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
 MBIGA1UECwwLU1NPUHJvdmlkZXIxGDAWBgNVBAMMD2NyYWZ0ZXJzb2Z0d2FyZTEcMBoGCSqGSIb3
 DQEJARYNaW5mb0Bva3RhLmNvbTAeFw0yMTA2MDkwNzAxMjdaFw0zMTA2MDkwNzAyMjdaMIGXMQsw
@@ -43,7 +46,8 @@ AAOCAQEAUt/mV15HvhpsBcwfNuQTd+8koLAiOs1eXclJEj5PjhBnCoQ+nHRVJq/Hd89NO6WcFEfP
 CKjDghhhdHunGNhdXI9maDfI/RbafRAy0DWh929jYWgaj/HSg95jj1JV7TtiBIQwqFJ51MWmkwF3
 yZllicD4lmdCCbXpnnL+oVeuP/fN8vdg43uVC7H8OlcxqIlbBx6P6MFjv3Dn+Zt2y5dhyFfCsSzu
 palHwkjdk7qPLcOVNfsVeMUH6CejvhqH+lBNXNEIeZKSMKjXnvwBuTmYUBwUq2ctX/hCEdPBoPfL
-TmfJtuVOGS8hC88IzwgD3vJGM0W12iwmztl4YCm22gOdig==</ds:X509Certificate>
+TmfJtuVOGS8hC88IzwgD3vJGM0W12iwmztl4YCm22gOdig==
+-----END CERTIFICATE-----</ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
