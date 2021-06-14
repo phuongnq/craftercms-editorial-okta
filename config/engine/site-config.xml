@@ -57,7 +57,7 @@
             </mappings>
           </attributes>
           <role>
-              <key>role</key>
+              <key>email</key>
           </role>
           <keystore>
              <defaultCredential>okta_sso_1</defaultCredential>
