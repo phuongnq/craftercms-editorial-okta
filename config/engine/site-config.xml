@@ -25,7 +25,7 @@
         <urlRestrictions>
         <restriction>
             <url>/*</url>
-            <expression>hasAnyRole({'editor'\, 'admin'})</expression>
+            <expression>isAuthenticated()</expression>
         </restriction>
         </urlRestrictions>
         <saml2>
