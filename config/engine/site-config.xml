@@ -44,9 +44,9 @@
             <contextPath>/</contextPath>
           </context>
           <profile>
-            <passive>false</passive>
-            <forceAuthN>false</forceAuthN>
-            <includeScoping>true</includeScoping>
+            <passive>true</passive>
+            <forceAuthN>true</forceAuthN>
+            <includeScoping>false</includeScoping>
           </profile>
           <attributes>
             <mappings>
