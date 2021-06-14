@@ -56,9 +56,6 @@
               </mapping>
             </mappings>
           </attributes>
-          <role>
-              <key>role</key>
-          </role>
           <keystore>
              <defaultCredential>okta_sso_1</defaultCredential>
              <password>okta-secret-password</password>
