@@ -71,8 +71,8 @@
                 </credential>
              </credentials>
           </keystore>
-          <identityProviderName>okta_sso_craftercms_test</identityProviderName>
-          <serviceProviderName>okta_sso_craftercms_test</serviceProviderName>
+          <identityProviderName>Okta</identityProviderName>
+          <serviceProviderName>Crafter Engine</serviceProviderName>
        </saml2>
     </security>
 </site>    
