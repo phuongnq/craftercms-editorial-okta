@@ -23,10 +23,10 @@
     <version>2</version>
     <security>
         <urlRestrictions>
-        <restriction>
-            <url>/*</url>
-            <expression>isAuthenticated()</expression>
-        </restriction>
+            <restriction>
+                <url>/**</url>
+                <expression>isAuthenticated()</expression>
+            </restriction>
         </urlRestrictions>
         <saml2>
           <enable>true</enable>
