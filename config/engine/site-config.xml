@@ -24,7 +24,7 @@
     <security>
         <urlRestrictions>
             <restriction>
-                <url>/**</url>
+                <url>/*</url>
                 <expression>isAuthenticated()</expression>
             </restriction>
         </urlRestrictions>
