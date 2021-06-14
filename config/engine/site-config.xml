@@ -35,7 +35,7 @@
             <forwardedProtoHeaderName>X-Forwarded-Proto</forwardedProtoHeaderName>
             <forwardedHostHeaderName>X-Forwarded-Host</forwardedHostHeaderName>
             <forwardedPortHeaderName>X-Forwarded-Port</forwardedPortHeaderName>
-            <scheme>https</scheme>
+            <scheme>http</scheme>
             <serverName>myproxy</serverName>
             <serverPort>9080</serverPort>
             <contextPath>/</contextPath>
