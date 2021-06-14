@@ -65,7 +65,7 @@
              <credentials>
                 <credential>
                    <name>okta_sso_1</name>
-                   <password></password>
+                   <password>okta-secret-password</password>
                 </credential>
              </credentials>
           </keystore>
