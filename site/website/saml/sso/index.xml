@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/category-landing</content-type>
+	<display-template>/templates/web/pages/category-landing.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>03e2</objectGroupId>
+	<objectId>03e2495b-0a52-a5b4-9b2f-e6a00bd1de9f</objectId>
+	<internal-name>Saml SSO</internal-name>
+	<title_t>Saml SSO</title_t>
+	<articles_title_t>Saml SSO</articles_title_t>
+	<disabled>false</disabled>
+	<file-name>index.xml</file-name>
+	<folder-name>sso</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<category_s>technology</category_s>
+	<header_o item-list="true"/>
+	<left-rail_o item-list="true"/>
+	<max_articles_i>10</max_articles_i>
+	<createdDate>2021-06-14T05:47:55.526Z</createdDate>
+	<createdDate_dt>2021-06-14T05:47:55.526Z</createdDate_dt>
+	<lastModifiedDate>2021-06-14T05:47:55.526Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-06-14T05:47:55.526Z</lastModifiedDate_dt>
+</page>
