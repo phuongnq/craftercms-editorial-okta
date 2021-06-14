@@ -56,6 +56,14 @@
               </mapping>
             </mappings>
           </attributes>
+          <role>
+             <mappings>
+                <mapping>
+                   <name>editor</name>
+                   <role>ROLE_EDITOR</role>
+                </mapping>
+             </mappings>
+         </role>
           <keystore>
              <defaultCredential>okta_sso_1</defaultCredential>
              <password>okta-secret-password</password>
