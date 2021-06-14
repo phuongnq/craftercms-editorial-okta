@@ -71,8 +71,8 @@
                 </credential>
              </credentials>
           </keystore>
-          <identityProviderName>Okta</identityProviderName>
-          <serviceProviderName>Crafter Engine</serviceProviderName>
+          <identityProviderName>http://www.okta.com/exkwmvy5qDeEvUt2l5d6</identityProviderName>
+          <serviceProviderName>crafter_engine</serviceProviderName>
        </saml2>
     </security>
 </site>    
