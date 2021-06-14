@@ -22,6 +22,9 @@
 <site>
     <version>2</version>
     <security>
+        <headers>
+            <standalone>true</standalone>
+        </headers>
         <urlRestrictions>
             <restriction>
                 <url>/*</url>
