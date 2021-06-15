@@ -36,13 +36,13 @@
         </urlRestrictions>
         <saml2>
           <enable>true</enable>
-          <reverseProxy>true</reverseProxy>
+          <reverseProxy>false</reverseProxy>
           <context>
             <forwardedProtoHeaderName>X-Forwarded-Proto</forwardedProtoHeaderName>
             <forwardedHostHeaderName>X-Forwarded-Host</forwardedHostHeaderName>
             <forwardedPortHeaderName>X-Forwarded-Port</forwardedPortHeaderName>
             <scheme>http</scheme>
-            <serverName>myproxy</serverName>
+            <serverName>localhost</serverName>
             <serverPort>9080</serverPort>
             <contextPath>/</contextPath>
           </context>
