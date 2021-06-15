@@ -74,8 +74,8 @@
                 </credential>
              </credentials>
           </keystore>
-          <identityProviderName>http://www.okta.com/exkwmvy5qDeEvUt2l5d6</identityProviderName>
-          <serviceProviderName>crafter_engine</serviceProviderName>
+          <identityProviderName>http://www.okta.com/exk10hl3k0dlNxbEM5d7</identityProviderName>
+          <serviceProviderName>http://localhost:9080/saml/metadata</serviceProviderName>
        </saml2>
     </security>
 </site>    
