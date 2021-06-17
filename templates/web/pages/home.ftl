@@ -20,13 +20,6 @@
 	<body>
 		<!-- Wrapper -->
 			<div id="wrapper">
-                <div>
-                    <#if authToken??>
-                      Hello ${authToken.principal.attributes.email}!
-                    <#else>
-                      Not login
-                    </#if>
-                </div>
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
