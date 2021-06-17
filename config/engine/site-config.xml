@@ -20,9 +20,6 @@
 -->
 
 <site>
-    <db>
-      <uri>mongodb://localhost:28020/crafterprofile?readPreference=primary&amp;maxPoolSize=50&amp;minPoolSize=5&amp;maxIdleTimeMS=1000&amp;waitQueueMultiple=200&amp;waitQueueTimeoutMS=100&amp;w=1&amp;journal=true</uri>
-    </db>
     <version>2</version>
     <security>
         <headers>
