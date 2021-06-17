@@ -6,11 +6,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<#if authToken??>
-  Hello ${authToken.principal.attributes.firstName}!
-<#else>
-  Not login
-</#if>
+
 <html>
 	<head>
 		<title>${contentModel.title_t}</title>
