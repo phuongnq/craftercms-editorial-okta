@@ -51,8 +51,12 @@
           <attributes>
             <mappings>
               <mapping>
-                <name>Email</name>
+                <name>email</name>
                 <attribute>email</attribute>
+              </mapping>
+              <mapping>
+                <name>name</name>
+                <attribute>name</attribute>
               </mapping>
             </mappings>
           </attributes>
